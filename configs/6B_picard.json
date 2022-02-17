@@ -12,12 +12,12 @@
   "per_replica_batch": 1,
   "gradient_accumulation_steps": 32,
 
-  "warmup_steps": 3000,
-  "anneal_steps": 300000,
+  "warmup_steps": 300,
+  "anneal_steps": 3721,
   "lr": 5e-5,
   "end_lr": 1e-5,
   "weight_decay": 0.1,
-  "total_steps": 350000,
+  "total_steps": 4021,
 
   "tpu_size": 8,
 
@@ -27,7 +27,7 @@
   "train_set": "picard6b.train.index",
   "val_set": "picard6b.train.index",
 
-  "val_batches": 100,
+  "val_batches": 128643,
   "val_every": 500,
   "ckpt_every": 500,
   "keep_every": 10000,
