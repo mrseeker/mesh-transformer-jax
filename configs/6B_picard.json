@@ -32,7 +32,7 @@
   "ckpt_every": 500,
   "keep_every": 10000,
 
-  "name": "GPT-J-Picard6B",
-  "wandb_project": "GPT-J-Janeway",
+  "name": "GPT-J-Janeway",
+  "wandb_project": "GPT-finetuning",
   "comment": ""
 }
