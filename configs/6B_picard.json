@@ -25,7 +25,7 @@
   "model_dir": "6b-finetuned",
 
   "train_set": "picard6b.train.index",
-  "val_set": "picard6b.train.index",
+  "val_set": {},
 
   "val_batches": 128643,
   "val_every": 500,
