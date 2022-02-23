@@ -32,6 +32,9 @@
   "ckpt_every": 500,
   "keep_every": 10000,
 
+  "eval_harness_tasks": [
+  ],
+
   "name": "GPT-J-Janeway",
   "wandb_project": "GPT-finetuning",
   "comment": ""
