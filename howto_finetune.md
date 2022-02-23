@@ -45,8 +45,9 @@ At this point you should have remote access to the TPU VM!
 11. Move to the new directory with `cd mesh-transformer-jax` and run `pip install -r requirements.txt`. Since the requirements.txt file doesn't pin the exact jax version required for finetuning, run `pip install jax==0.2.12` and you'll be all set.
 NEW:
 ```
+pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 export LD_LIBRARY_PATH=/usr/local/lib
-ldd /usr/local/lib/python3.7/dist-packages/torch/lib/libtorch.so
+ldd /usr/local/lib/python3.8/dist-packages/torch/lib/libtorch.so
 ```
 Install tensorflow with pip, dont install jax.
 
