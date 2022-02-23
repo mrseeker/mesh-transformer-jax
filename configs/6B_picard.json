@@ -21,8 +21,8 @@
 
   "tpu_size": 8,
 
-  "bucket": "6b-picard",
-  "model_dir": "6b-finetuned",
+  "bucket": "gpt-j-janeway-6b",
+  "model_dir": "janeway-6b",
 
   "train_set": "picard6b.train.index",
   "val_set": {},
