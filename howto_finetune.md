@@ -38,9 +38,13 @@ Note that steps 6 and 7, preparing the index and config files, can be done later
 
 9. Follow [this guide](https://cloud.google.com/tpu/docs/jax-quickstart-tpu-vm) up to and including the step **"Connect to your Cloud TPU VM"**.
 
+Note that you need to use v2-alpha as the TPU software
+
 At this point you should have remote access to the TPU VM!
 
 10. In the new VM terminal, type `git clone https://github.com/kingoflolz/mesh-transformer-jax` (or, preferably, your own fork, after pushing the config and index files)
+
+NEW: Start a virtual environment!
 
 11. Move to the new directory with `cd mesh-transformer-jax` and run `pip install -r requirements.txt`. Since the requirements.txt file doesn't pin the exact jax version required for finetuning, run `pip install jax==0.2.12` and you'll be all set.
 NEW:
