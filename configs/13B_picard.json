@@ -3,7 +3,7 @@
   "n_vocab": 51200,
   "n_vocab_padding": 0,
   "norm": "layernorm",
-  "pe": "fairseq_sinusoidal",
+  "pe": "fixed",
   "seq": 2048,
   "layers": 40,
   "d_model": 5120,
