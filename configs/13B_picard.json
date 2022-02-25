@@ -1,0 +1,43 @@
+{
+  "compat": "fairseq_lm",
+  "n_vocab": 51200,
+  "n_vocab_padding": 0,
+  "norm": "layernorm",
+  "pe": "fairseq_sinusoidal",
+  "seq": 2048,
+  "layers": 40,
+  "d_model": 5120,
+  "n_heads": 40,
+
+  "seq": 2048,
+  "cores_per_replica": 8,
+  "per_replica_batch": 1,
+  "gradient_accumulation_steps": 32,
+
+  "warmup_steps": 300,
+  "anneal_steps": 3721,
+  "lr": 5e-6,
+  "end_lr": 1e-6,
+  "weight_decay": 0.1,
+  "total_steps": 4021,
+
+  "tpu_size": 8,
+
+  "bucket": "gpt-j-janeway-6b",
+  "model_dir": "janeway-13b",
+
+  "train_set": "picard13b.train.index",
+  "val_set": {},
+
+  "val_batches": 128643,
+  "val_every": 500,
+  "ckpt_every": 500,
+  "keep_every": 10000,
+
+  "eval_harness_tasks": [
+  ],
+
+  "name": "fairseq-13B-Janeway",
+  "wandb_project": "GPT-finetuning",
+  "comment": ""
+}
